@@ -1,0 +1,26 @@
+# Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data and Large Files (Crucial for ML)
+*.csv
+*.xlsx
+*.zip
+artifacts/
+notebook/data/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Distribution / Packaging
+dist/
+build/
+*.egg-info/
