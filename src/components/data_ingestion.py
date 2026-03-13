@@ -22,8 +22,8 @@ class DataIngestion:
         logging.info("Entered the data ingestion method or component")
         try:
             # Step 1: Read the dataset
-            
-            df = pd.read_csv('notebook\data\StudentsPerformance.csv') 
+            data_path = os.path.join("notebook", "data", "StudentsPerformance.csv")
+            df = pd.read_csv(data_path)
             logging.info('Read the dataset as dataframe')
 
             # Step 2: Create the artifacts folder if it doesn't exist

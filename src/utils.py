@@ -23,13 +23,14 @@ def evaluate_models(X_train, y_train, X_test, y_test, models,param):
             para = param[list(models.keys())[i]]
 
             
-            # Train model with hyperparameter tuning 
+            
             # GridSearchCV will find the best parameters from the 'para' dict
             gs = GridSearchCV(model, para, cv=3)
             gs.fit(X_train, y_train)
 
             # Set the model to use the best parameters found
             model.set_params(**gs.best_params_)
+            # Train model with hyperparameter tuning 
             model.fit(X_train, y_train)
             
              
@@ -47,3 +48,5 @@ def evaluate_models(X_train, y_train, X_test, y_test, models,param):
 
     except Exception as e:
         raise CustomException(e, sys)
+    
+
