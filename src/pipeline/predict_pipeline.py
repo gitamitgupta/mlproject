@@ -4,7 +4,7 @@ from pathlib import Path
 from typing import Any
 
 import pandas as pd
-
+## User Input → Convert to DataFrame → Load model.pkl → Predict → Return result 
 from src.exception import CustomException
 
 

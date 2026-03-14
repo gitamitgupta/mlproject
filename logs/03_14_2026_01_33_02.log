@@ -1,0 +1,4 @@
+[ 2026-03-14 01:33:02,544 ] 88 root - INFO - Loaded train and test datasets for training
+[ 2026-03-14 01:33:03,212 ] 97 root - INFO - Model pipeline training completed
+[ 2026-03-14 01:33:03,242 ] 101 root - INFO - Model R2 score on test set: 0.8523
+[ 2026-03-14 01:33:03,261 ] 104 root - INFO - Saved trained model pipeline to C:\Users\Amit Gupta\Desktop\mlprojet\mlproject\artifacts\model.pkl

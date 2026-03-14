@@ -1,0 +1,6 @@
+[ 2026-03-14 01:33:57,401 ] 80 root - INFO - Read train and test data completed
+[ 2026-03-14 01:33:57,402 ] 81 root - INFO - Obtaining preprocessing object
+[ 2026-03-14 01:33:57,402 ] 56 root - INFO - Categorical columns: ['gender', 'race/ethnicity', 'parental level of education', 'lunch', 'test preparation course']
+[ 2026-03-14 01:33:57,402 ] 57 root - INFO - Numerical columns: ['writing score', 'reading score']
+[ 2026-03-14 01:33:57,403 ] 96 root - INFO - Applying preprocessing object on training and testing dataframes.
+[ 2026-03-14 01:33:57,417 ] 106 root - INFO - Saved preprocessing object.
